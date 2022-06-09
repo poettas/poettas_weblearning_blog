@@ -36,38 +36,40 @@ const FeaturedPosts = () => {
     }, []);
 
     const customLeftArrow = (
-        <div className="arrow-btn absolute left-0 cursor-pointer rounded-full bg-pink-600 py-3 text-center">
+        <div className="arrow-btn absolute left-0 cursor-pointer rounded-full py-3 text-center hover:bg-indigo-400 hover:bg-opacity-40">
             <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6  text-white"
-                fill="none"
+                width="24px"
+                height="24px"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-12 w-12"
             >
                 <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                    d="M9 15L9 17C9 17.961 7.77661 18.3688 7.2 17.6L3.45 12.6C3.18333 12.2444 3.18333 11.7556 3.45 11.4L7.2 6.4C7.77661 5.63119 9 6.03899 9 7L9 11C9 11.5523 9.44772 12 10 12L21 12"
+                    stroke="black"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                 />
             </svg>
         </div>
     );
 
     const customRightArrow = (
-        <div className="arrow-btn absolute right-0 cursor-pointer rounded-full bg-pink-600 py-3 text-center">
+        <div className="arrow-btn absolute right-0 cursor-pointer rounded-full py-3 text-center hover:bg-indigo-400 hover:bg-opacity-40">
             <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-white"
-                fill="none"
+                width="24px"
+                height="24px"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                fill="white"
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-12 w-12"
             >
                 <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    d="M15 15L15 17C15 17.961 16.2234 18.3688 16.8 17.6L20.55 12.6C20.8167 12.2444 20.8167 11.7556 20.55 11.4L16.8 6.4C16.2234 5.63119 15 6.03899 15 7L15 11C15 11.5523 14.5523 12 14 12L3 12"
+                    stroke="black"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                 />
             </svg>
         </div>
