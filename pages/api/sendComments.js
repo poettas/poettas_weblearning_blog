@@ -3,9 +3,6 @@
 import { log } from "console";
 import { GraphQLClient, gql } from "graphql-request";
 
-//TODO: look "absolute url"
-// error during the building process
-// url of the cms => does the hardcode way work?
 const graphqlAPI =
     "https://api-eu-central-1.graphcms.com/v2/cl38c2isz8v0i01xqdrwe7v1i/master";
 
