@@ -36,7 +36,7 @@ const FeaturedPosts = () => {
     }, []);
 
     const customLeftArrow = (
-        <div className="arrow-btn absolute left-0 cursor-pointer rounded-full py-3 text-center hover:bg-indigo-400 hover:bg-opacity-40">
+        <div className="arrow-btn absolute left-0 cursor-pointer rounded-full py-3 text-center hover:bg-green-300 hover:bg-opacity-40">
             <svg
                 width="24px"
                 height="24px"
@@ -56,7 +56,7 @@ const FeaturedPosts = () => {
     );
 
     const customRightArrow = (
-        <div className="arrow-btn absolute right-0 cursor-pointer rounded-full py-3 text-center hover:bg-indigo-400 hover:bg-opacity-40">
+        <div className="arrow-btn absolute right-0 cursor-pointer rounded-full py-3 text-center hover:bg-green-300 hover:bg-opacity-40">
             <svg
                 width="24px"
                 height="24px"

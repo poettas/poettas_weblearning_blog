@@ -19,6 +19,7 @@ const Header = () => {
                                 Beginner Web Dev Stories
                             </span>
                             <br />
+                            <br />
                             <span className="cursor-pointer text-xl font-bold">
                                 Short stories about tech based and other things
                             </span>
